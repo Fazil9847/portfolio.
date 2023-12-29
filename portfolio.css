@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Fira+Mono:wght@700&family=Lobster&family=Poppins:ital,wght@0,300;1,200&family=Rubik+Broken+Fax&family=Silkscreen&display=swap');
+
+
+
+.body{background-color:black;}
+ .navbar-collapse{display: flex;
+
+
+
+    justify-content: space-between
+}
+.navbar{background:rgb(148, 184, 184) }
+
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: azure;
+}
+.navbar-brand{
+    
+    color:azure;
+    font-family: "fira mono";
+    font-size: 300px
+}
+.img1{height: 400px;
+width: 350px;
+border-radius: 25%;
+border:solid 5px rgb(148, 184, 184) }
+
+.cols{
+
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name h3{
+    font-size: 40px;
+    font-family: "Rubik broken fax";
+    color: rgb(148, 184, 184) 
+ }
+ .name p{color: rgb(148, 184, 184)  ;
+    font-size: 30px;
+    font-weight: solid;
+    font-family: "Poppins";
+           }
+        
+.ic i{
+    font-size: 20px;
+    color: aqua;
+    margin: 0px 10px; 
+}           
+.img2{height: 300px;
+      width: 300px;
+       border-radius: 10px;
+       border: solid 5px rgb(148, 184, 184) ;
+       padding: 2px
+        }
+ .about-c{
+
+    padding: 0px 40px;
+    color: rgb(148, 184, 184) 
+ }       
+ .about-c span{ color:azure;
+                 font-family: 'Silkscreen';
+                font-size: 25px;
+            font-weight: bold}
+.header{
+          font-display:flex;
+        align-items:center;
+    justify-content: center;
+  }
+  .header h3{color: aquamarine;
+font-family: 'Coiny';
+font-size: 50px}
+.card-title{font-weight: bold;
+}
+.outer{ width: 100%;
+        }
+
+.wrap p{
+    font-family: "Poppins";
+    color: azure;
+
+}
+.name h4{color: rgb(148, 184, 184);
+font-size: 25px;
+font-family: "Poppins"}
+
+.text{
+    font-size: 20px;
+    
+    font-family: "Poppins";
+    
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+              typing 5s steps(41),
+              cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+    50%{ border-color: transparent}
+}
+@keyframes typing{
+    from{width: 0}
+}
+
+.img3{width: 250px;
+      height:250px;}
+      textarea{ width: 100%}
+
+.wraper{padding:50px 60px;
+        border: solid 5px red; 
+          border-radius: 6px;}
+       
+          
+.wraper h3{ color: aqua;
+             font-weight: bold;
+            font-family: "Coiny"} 
+.wraper p{color: azure;} 
+.form{
+    border:solid 5px red;
+    font-weight: bold;
+    border-radius: 9px;
+    padding: 50px 60px 
+
+
+}
+.mb-3 label{color: azure}               
+.footer{
+     background-color: rgb(148, 184, 184);
+     padding: 30px 0px;
+
+} 
+.footer p{ color: azure;
+           font-weight: bold;
+        font-size: 30px}
+.footer div{
+    width: max-content;
+    margin: auto;
+}
+
+.f-ic{color: azure;
+font-size: 28px}
+.f-ic i{margin: 0px 8px} 
